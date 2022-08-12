@@ -2,7 +2,7 @@
 
 Django, PostgreSQL and Docker
 
-
+#dev
 ```bash
 docker-compose build
 ```
@@ -12,7 +12,7 @@ docker-compose up -d
 ```bash
 docker-compose logs -f
 ```
-
+#prod
 ```bash
 $ docker-compose down -v
 $ docker-compose -f docker-compose.prod.yml up -d --build
